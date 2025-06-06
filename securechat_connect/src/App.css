@@ -4,7 +4,69 @@
   --text-color: #ffffff;
   --text-secondary: rgba(255, 255, 255, 0.7);
   --border-color: rgba(255, 255, 255, 0.1);
+
+  --primary: #075E54;
+  --secondary: #25D366;
+  --accent: #128C7E;
+  --sc-bg: #ece5dd;
+  --sc-bubble: #dcf8c6;
 }
+
+/* ------ SecureChat Connect Styles ------ */
+.sc-header {
+  /* handled inline */
+}
+.sc-avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--accent, #128C7E);
+  background: #eee;
+}
+.sc-chat-item:hover {
+  background: #f4fdf7 !important;
+}
+.sc-input:focus {
+  outline: 2px solid var(--secondary, #25D366);
+}
+.sc-navtab {
+  transition: color 0.15s;
+}
+.sc-fab {
+  box-shadow: 0 4px 16px #008b3922;
+  transition: background 0.18s, transform 0.16s;
+}
+.sc-fab:active {
+  transform: scale(0.96);
+}
+.sc-icon-btn {
+  border: none;
+  background: none;
+  color: inherit;
+  font-size: 22px;
+  cursor: pointer;
+  padding: 0;
+}
+
+/* Hide scrollbars (webkit) but allow overflow scroll */
+.sc-chat-list-screen,
+.sc-room-messages {
+  scrollbar-width: thin;
+  scrollbar-color: #d3f6e6 #ece5dd;
+}
+.sc-chat-list-screen::-webkit-scrollbar,
+.sc-room-messages::-webkit-scrollbar {
+  width: 7px;
+  background: #ece5dd;
+}
+.sc-chat-list-screen::-webkit-scrollbar-thumb,
+.sc-room-messages::-webkit-scrollbar-thumb {
+  background: #25D36633;
+  border-radius: 7px;
+}
+
+/* -- End Scrollbar -- */
 
 body {
   margin: 0;
@@ -15,11 +77,123 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* ------ SecureChat Connect Styles ------ */
+.sc-header {
+  /* handled inline */
+}
+.sc-avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--accent, #128C7E);
+  background: #eee;
+}
+.sc-chat-item:hover {
+  background: #f4fdf7 !important;
+}
+.sc-input:focus {
+  outline: 2px solid var(--secondary, #25D366);
+}
+.sc-navtab {
+  transition: color 0.15s;
+}
+.sc-fab {
+  box-shadow: 0 4px 16px #008b3922;
+  transition: background 0.18s, transform 0.16s;
+}
+.sc-fab:active {
+  transform: scale(0.96);
+}
+.sc-icon-btn {
+  border: none;
+  background: none;
+  color: inherit;
+  font-size: 22px;
+  cursor: pointer;
+  padding: 0;
+}
+
+/* Hide scrollbars (webkit) but allow overflow scroll */
+.sc-chat-list-screen,
+.sc-room-messages {
+  scrollbar-width: thin;
+  scrollbar-color: #d3f6e6 #ece5dd;
+}
+.sc-chat-list-screen::-webkit-scrollbar,
+.sc-room-messages::-webkit-scrollbar {
+  width: 7px;
+  background: #ece5dd;
+}
+.sc-chat-list-screen::-webkit-scrollbar-thumb,
+.sc-room-messages::-webkit-scrollbar-thumb {
+  background: #25D36633;
+  border-radius: 7px;
+}
+
+/* -- End Scrollbar -- */
+
 .app {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
+
+/* ------ SecureChat Connect Styles ------ */
+.sc-header {
+  /* handled inline */
+}
+.sc-avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--accent, #128C7E);
+  background: #eee;
+}
+.sc-chat-item:hover {
+  background: #f4fdf7 !important;
+}
+.sc-input:focus {
+  outline: 2px solid var(--secondary, #25D366);
+}
+.sc-navtab {
+  transition: color 0.15s;
+}
+.sc-fab {
+  box-shadow: 0 4px 16px #008b3922;
+  transition: background 0.18s, transform 0.16s;
+}
+.sc-fab:active {
+  transform: scale(0.96);
+}
+.sc-icon-btn {
+  border: none;
+  background: none;
+  color: inherit;
+  font-size: 22px;
+  cursor: pointer;
+  padding: 0;
+}
+
+/* Hide scrollbars (webkit) but allow overflow scroll */
+.sc-chat-list-screen,
+.sc-room-messages {
+  scrollbar-width: thin;
+  scrollbar-color: #d3f6e6 #ece5dd;
+}
+.sc-chat-list-screen::-webkit-scrollbar,
+.sc-room-messages::-webkit-scrollbar {
+  width: 7px;
+  background: #ece5dd;
+}
+.sc-chat-list-screen::-webkit-scrollbar-thumb,
+.sc-room-messages::-webkit-scrollbar-thumb {
+  background: #25D36633;
+  border-radius: 7px;
+}
+
+/* -- End Scrollbar -- */
 
 .navbar {
   background-color: var(--base-dark);
@@ -35,6 +209,62 @@ body {
   z-index: 100;
 }
 
+/* ------ SecureChat Connect Styles ------ */
+.sc-header {
+  /* handled inline */
+}
+.sc-avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--accent, #128C7E);
+  background: #eee;
+}
+.sc-chat-item:hover {
+  background: #f4fdf7 !important;
+}
+.sc-input:focus {
+  outline: 2px solid var(--secondary, #25D366);
+}
+.sc-navtab {
+  transition: color 0.15s;
+}
+.sc-fab {
+  box-shadow: 0 4px 16px #008b3922;
+  transition: background 0.18s, transform 0.16s;
+}
+.sc-fab:active {
+  transform: scale(0.96);
+}
+.sc-icon-btn {
+  border: none;
+  background: none;
+  color: inherit;
+  font-size: 22px;
+  cursor: pointer;
+  padding: 0;
+}
+
+/* Hide scrollbars (webkit) but allow overflow scroll */
+.sc-chat-list-screen,
+.sc-room-messages {
+  scrollbar-width: thin;
+  scrollbar-color: #d3f6e6 #ece5dd;
+}
+.sc-chat-list-screen::-webkit-scrollbar,
+.sc-room-messages::-webkit-scrollbar {
+  width: 7px;
+  background: #ece5dd;
+}
+.sc-chat-list-screen::-webkit-scrollbar-thumb,
+.sc-room-messages::-webkit-scrollbar-thumb {
+  background: #25D36633;
+  border-radius: 7px;
+}
+
+/* -- End Scrollbar -- */
+
 .logo {
   font-size: 1.25rem;
   font-weight: 600;
@@ -43,9 +273,121 @@ body {
   gap: 8px;
 }
 
+/* ------ SecureChat Connect Styles ------ */
+.sc-header {
+  /* handled inline */
+}
+.sc-avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--accent, #128C7E);
+  background: #eee;
+}
+.sc-chat-item:hover {
+  background: #f4fdf7 !important;
+}
+.sc-input:focus {
+  outline: 2px solid var(--secondary, #25D366);
+}
+.sc-navtab {
+  transition: color 0.15s;
+}
+.sc-fab {
+  box-shadow: 0 4px 16px #008b3922;
+  transition: background 0.18s, transform 0.16s;
+}
+.sc-fab:active {
+  transform: scale(0.96);
+}
+.sc-icon-btn {
+  border: none;
+  background: none;
+  color: inherit;
+  font-size: 22px;
+  cursor: pointer;
+  padding: 0;
+}
+
+/* Hide scrollbars (webkit) but allow overflow scroll */
+.sc-chat-list-screen,
+.sc-room-messages {
+  scrollbar-width: thin;
+  scrollbar-color: #d3f6e6 #ece5dd;
+}
+.sc-chat-list-screen::-webkit-scrollbar,
+.sc-room-messages::-webkit-scrollbar {
+  width: 7px;
+  background: #ece5dd;
+}
+.sc-chat-list-screen::-webkit-scrollbar-thumb,
+.sc-room-messages::-webkit-scrollbar-thumb {
+  background: #25D36633;
+  border-radius: 7px;
+}
+
+/* -- End Scrollbar -- */
+
 .logo-symbol {
   color: var(--base-light);
 }
+
+/* ------ SecureChat Connect Styles ------ */
+.sc-header {
+  /* handled inline */
+}
+.sc-avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--accent, #128C7E);
+  background: #eee;
+}
+.sc-chat-item:hover {
+  background: #f4fdf7 !important;
+}
+.sc-input:focus {
+  outline: 2px solid var(--secondary, #25D366);
+}
+.sc-navtab {
+  transition: color 0.15s;
+}
+.sc-fab {
+  box-shadow: 0 4px 16px #008b3922;
+  transition: background 0.18s, transform 0.16s;
+}
+.sc-fab:active {
+  transform: scale(0.96);
+}
+.sc-icon-btn {
+  border: none;
+  background: none;
+  color: inherit;
+  font-size: 22px;
+  cursor: pointer;
+  padding: 0;
+}
+
+/* Hide scrollbars (webkit) but allow overflow scroll */
+.sc-chat-list-screen,
+.sc-room-messages {
+  scrollbar-width: thin;
+  scrollbar-color: #d3f6e6 #ece5dd;
+}
+.sc-chat-list-screen::-webkit-scrollbar,
+.sc-room-messages::-webkit-scrollbar {
+  width: 7px;
+  background: #ece5dd;
+}
+.sc-chat-list-screen::-webkit-scrollbar-thumb,
+.sc-room-messages::-webkit-scrollbar-thumb {
+  background: #25D36633;
+  border-radius: 7px;
+}
+
+/* -- End Scrollbar -- */
 
 .container {
   max-width: 900px;
@@ -54,6 +396,62 @@ body {
   width: 100%;
   box-sizing: border-box;
 }
+
+/* ------ SecureChat Connect Styles ------ */
+.sc-header {
+  /* handled inline */
+}
+.sc-avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--accent, #128C7E);
+  background: #eee;
+}
+.sc-chat-item:hover {
+  background: #f4fdf7 !important;
+}
+.sc-input:focus {
+  outline: 2px solid var(--secondary, #25D366);
+}
+.sc-navtab {
+  transition: color 0.15s;
+}
+.sc-fab {
+  box-shadow: 0 4px 16px #008b3922;
+  transition: background 0.18s, transform 0.16s;
+}
+.sc-fab:active {
+  transform: scale(0.96);
+}
+.sc-icon-btn {
+  border: none;
+  background: none;
+  color: inherit;
+  font-size: 22px;
+  cursor: pointer;
+  padding: 0;
+}
+
+/* Hide scrollbars (webkit) but allow overflow scroll */
+.sc-chat-list-screen,
+.sc-room-messages {
+  scrollbar-width: thin;
+  scrollbar-color: #d3f6e6 #ece5dd;
+}
+.sc-chat-list-screen::-webkit-scrollbar,
+.sc-room-messages::-webkit-scrollbar {
+  width: 7px;
+  background: #ece5dd;
+}
+.sc-chat-list-screen::-webkit-scrollbar-thumb,
+.sc-room-messages::-webkit-scrollbar-thumb {
+  background: #25D36633;
+  border-radius: 7px;
+}
+
+/* -- End Scrollbar -- */
 
 .hero {
   padding-top: 120px;
@@ -65,11 +463,123 @@ body {
   gap: 24px;
 }
 
+/* ------ SecureChat Connect Styles ------ */
+.sc-header {
+  /* handled inline */
+}
+.sc-avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--accent, #128C7E);
+  background: #eee;
+}
+.sc-chat-item:hover {
+  background: #f4fdf7 !important;
+}
+.sc-input:focus {
+  outline: 2px solid var(--secondary, #25D366);
+}
+.sc-navtab {
+  transition: color 0.15s;
+}
+.sc-fab {
+  box-shadow: 0 4px 16px #008b3922;
+  transition: background 0.18s, transform 0.16s;
+}
+.sc-fab:active {
+  transform: scale(0.96);
+}
+.sc-icon-btn {
+  border: none;
+  background: none;
+  color: inherit;
+  font-size: 22px;
+  cursor: pointer;
+  padding: 0;
+}
+
+/* Hide scrollbars (webkit) but allow overflow scroll */
+.sc-chat-list-screen,
+.sc-room-messages {
+  scrollbar-width: thin;
+  scrollbar-color: #d3f6e6 #ece5dd;
+}
+.sc-chat-list-screen::-webkit-scrollbar,
+.sc-room-messages::-webkit-scrollbar {
+  width: 7px;
+  background: #ece5dd;
+}
+.sc-chat-list-screen::-webkit-scrollbar-thumb,
+.sc-room-messages::-webkit-scrollbar-thumb {
+  background: #25D36633;
+  border-radius: 7px;
+}
+
+/* -- End Scrollbar -- */
+
 .subtitle {
   color: var(--base-light);
   font-weight: 500;
   font-size: 1.1rem;
 }
+
+/* ------ SecureChat Connect Styles ------ */
+.sc-header {
+  /* handled inline */
+}
+.sc-avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--accent, #128C7E);
+  background: #eee;
+}
+.sc-chat-item:hover {
+  background: #f4fdf7 !important;
+}
+.sc-input:focus {
+  outline: 2px solid var(--secondary, #25D366);
+}
+.sc-navtab {
+  transition: color 0.15s;
+}
+.sc-fab {
+  box-shadow: 0 4px 16px #008b3922;
+  transition: background 0.18s, transform 0.16s;
+}
+.sc-fab:active {
+  transform: scale(0.96);
+}
+.sc-icon-btn {
+  border: none;
+  background: none;
+  color: inherit;
+  font-size: 22px;
+  cursor: pointer;
+  padding: 0;
+}
+
+/* Hide scrollbars (webkit) but allow overflow scroll */
+.sc-chat-list-screen,
+.sc-room-messages {
+  scrollbar-width: thin;
+  scrollbar-color: #d3f6e6 #ece5dd;
+}
+.sc-chat-list-screen::-webkit-scrollbar,
+.sc-room-messages::-webkit-scrollbar {
+  width: 7px;
+  background: #ece5dd;
+}
+.sc-chat-list-screen::-webkit-scrollbar-thumb,
+.sc-room-messages::-webkit-scrollbar-thumb {
+  background: #25D36633;
+  border-radius: 7px;
+}
+
+/* -- End Scrollbar -- */
 
 .title {
   font-size: 3.5rem;
@@ -78,6 +588,62 @@ body {
   margin: 0;
 }
 
+/* ------ SecureChat Connect Styles ------ */
+.sc-header {
+  /* handled inline */
+}
+.sc-avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--accent, #128C7E);
+  background: #eee;
+}
+.sc-chat-item:hover {
+  background: #f4fdf7 !important;
+}
+.sc-input:focus {
+  outline: 2px solid var(--secondary, #25D366);
+}
+.sc-navtab {
+  transition: color 0.15s;
+}
+.sc-fab {
+  box-shadow: 0 4px 16px #008b3922;
+  transition: background 0.18s, transform 0.16s;
+}
+.sc-fab:active {
+  transform: scale(0.96);
+}
+.sc-icon-btn {
+  border: none;
+  background: none;
+  color: inherit;
+  font-size: 22px;
+  cursor: pointer;
+  padding: 0;
+}
+
+/* Hide scrollbars (webkit) but allow overflow scroll */
+.sc-chat-list-screen,
+.sc-room-messages {
+  scrollbar-width: thin;
+  scrollbar-color: #d3f6e6 #ece5dd;
+}
+.sc-chat-list-screen::-webkit-scrollbar,
+.sc-room-messages::-webkit-scrollbar {
+  width: 7px;
+  background: #ece5dd;
+}
+.sc-chat-list-screen::-webkit-scrollbar-thumb,
+.sc-room-messages::-webkit-scrollbar-thumb {
+  background: #25D36633;
+  border-radius: 7px;
+}
+
+/* -- End Scrollbar -- */
+
 .description {
   font-size: 1.1rem;
   line-height: 1.5;
@@ -85,6 +651,62 @@ body {
   max-width: 600px;
   margin-bottom: 16px;
 }
+
+/* ------ SecureChat Connect Styles ------ */
+.sc-header {
+  /* handled inline */
+}
+.sc-avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--accent, #128C7E);
+  background: #eee;
+}
+.sc-chat-item:hover {
+  background: #f4fdf7 !important;
+}
+.sc-input:focus {
+  outline: 2px solid var(--secondary, #25D366);
+}
+.sc-navtab {
+  transition: color 0.15s;
+}
+.sc-fab {
+  box-shadow: 0 4px 16px #008b3922;
+  transition: background 0.18s, transform 0.16s;
+}
+.sc-fab:active {
+  transform: scale(0.96);
+}
+.sc-icon-btn {
+  border: none;
+  background: none;
+  color: inherit;
+  font-size: 22px;
+  cursor: pointer;
+  padding: 0;
+}
+
+/* Hide scrollbars (webkit) but allow overflow scroll */
+.sc-chat-list-screen,
+.sc-room-messages {
+  scrollbar-width: thin;
+  scrollbar-color: #d3f6e6 #ece5dd;
+}
+.sc-chat-list-screen::-webkit-scrollbar,
+.sc-room-messages::-webkit-scrollbar {
+  width: 7px;
+  background: #ece5dd;
+}
+.sc-chat-list-screen::-webkit-scrollbar-thumb,
+.sc-room-messages::-webkit-scrollbar-thumb {
+  background: #25D36633;
+  border-radius: 7px;
+}
+
+/* -- End Scrollbar -- */
 
 .btn {
   background-color: var(--base-light);
@@ -98,11 +720,179 @@ body {
   transition: background-color 0.2s ease;
 }
 
+/* ------ SecureChat Connect Styles ------ */
+.sc-header {
+  /* handled inline */
+}
+.sc-avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--accent, #128C7E);
+  background: #eee;
+}
+.sc-chat-item:hover {
+  background: #f4fdf7 !important;
+}
+.sc-input:focus {
+  outline: 2px solid var(--secondary, #25D366);
+}
+.sc-navtab {
+  transition: color 0.15s;
+}
+.sc-fab {
+  box-shadow: 0 4px 16px #008b3922;
+  transition: background 0.18s, transform 0.16s;
+}
+.sc-fab:active {
+  transform: scale(0.96);
+}
+.sc-icon-btn {
+  border: none;
+  background: none;
+  color: inherit;
+  font-size: 22px;
+  cursor: pointer;
+  padding: 0;
+}
+
+/* Hide scrollbars (webkit) but allow overflow scroll */
+.sc-chat-list-screen,
+.sc-room-messages {
+  scrollbar-width: thin;
+  scrollbar-color: #d3f6e6 #ece5dd;
+}
+.sc-chat-list-screen::-webkit-scrollbar,
+.sc-room-messages::-webkit-scrollbar {
+  width: 7px;
+  background: #ece5dd;
+}
+.sc-chat-list-screen::-webkit-scrollbar-thumb,
+.sc-room-messages::-webkit-scrollbar-thumb {
+  background: #25D36633;
+  border-radius: 7px;
+}
+
+/* -- End Scrollbar -- */
+
 .btn:hover {
   background-color: #7691ff;
 }
+
+/* ------ SecureChat Connect Styles ------ */
+.sc-header {
+  /* handled inline */
+}
+.sc-avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--accent, #128C7E);
+  background: #eee;
+}
+.sc-chat-item:hover {
+  background: #f4fdf7 !important;
+}
+.sc-input:focus {
+  outline: 2px solid var(--secondary, #25D366);
+}
+.sc-navtab {
+  transition: color 0.15s;
+}
+.sc-fab {
+  box-shadow: 0 4px 16px #008b3922;
+  transition: background 0.18s, transform 0.16s;
+}
+.sc-fab:active {
+  transform: scale(0.96);
+}
+.sc-icon-btn {
+  border: none;
+  background: none;
+  color: inherit;
+  font-size: 22px;
+  cursor: pointer;
+  padding: 0;
+}
+
+/* Hide scrollbars (webkit) but allow overflow scroll */
+.sc-chat-list-screen,
+.sc-room-messages {
+  scrollbar-width: thin;
+  scrollbar-color: #d3f6e6 #ece5dd;
+}
+.sc-chat-list-screen::-webkit-scrollbar,
+.sc-room-messages::-webkit-scrollbar {
+  width: 7px;
+  background: #ece5dd;
+}
+.sc-chat-list-screen::-webkit-scrollbar-thumb,
+.sc-room-messages::-webkit-scrollbar-thumb {
+  background: #25D36633;
+  border-radius: 7px;
+}
+
+/* -- End Scrollbar -- */
 
 .btn-large {
   padding: 12px 24px;
   font-size: 1.1rem;
 }
+
+/* ------ SecureChat Connect Styles ------ */
+.sc-header {
+  /* handled inline */
+}
+.sc-avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--accent, #128C7E);
+  background: #eee;
+}
+.sc-chat-item:hover {
+  background: #f4fdf7 !important;
+}
+.sc-input:focus {
+  outline: 2px solid var(--secondary, #25D366);
+}
+.sc-navtab {
+  transition: color 0.15s;
+}
+.sc-fab {
+  box-shadow: 0 4px 16px #008b3922;
+  transition: background 0.18s, transform 0.16s;
+}
+.sc-fab:active {
+  transform: scale(0.96);
+}
+.sc-icon-btn {
+  border: none;
+  background: none;
+  color: inherit;
+  font-size: 22px;
+  cursor: pointer;
+  padding: 0;
+}
+
+/* Hide scrollbars (webkit) but allow overflow scroll */
+.sc-chat-list-screen,
+.sc-room-messages {
+  scrollbar-width: thin;
+  scrollbar-color: #d3f6e6 #ece5dd;
+}
+.sc-chat-list-screen::-webkit-scrollbar,
+.sc-room-messages::-webkit-scrollbar {
+  width: 7px;
+  background: #ece5dd;
+}
+.sc-chat-list-screen::-webkit-scrollbar-thumb,
+.sc-room-messages::-webkit-scrollbar-thumb {
+  background: #25D36633;
+  border-radius: 7px;
+}
+
+/* -- End Scrollbar -- */
